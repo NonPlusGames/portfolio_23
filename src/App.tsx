@@ -77,8 +77,20 @@ function App() {
           )}
         </div>
         <div
-          className="row d-flex justify-content-center"
-          style={currentPage == "landing" ? { opacity: "1" } : { opacity: "0" }}
+          className="row justify-content-center footerdiv"
+          style={
+            currentPage === "landing"
+              ? {
+                  opacity: "1",
+                  display: "flex",
+                  transition: "opacity 0.5s, visibility 0s linear 0.5",
+                }
+              : {
+                  opacity: "0",
+                  visibility: "hidden",
+                  animation: "hide 0.5s forwards",
+                }
+          }
         >
           <Footer />
         </div>

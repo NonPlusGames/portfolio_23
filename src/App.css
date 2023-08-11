@@ -104,6 +104,12 @@ canvas {
   mask-image: none;
 }
 
+@keyframes hide {
+  to {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 976px) and (min-height: 601px) {
   .web img {
     width: 100%;
