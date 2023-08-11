@@ -50,13 +50,17 @@ function Menu(props: Props) {
       >
         <div className="row">
           <div className="col-sm-12">
-            <h3 className="text-center">RAFAEL MOTA</h3>
+            <a href={process.env.PUBLIC_URL}>
+              <h3 className="text-center">RAFAEL MOTA</h3>
+            </a>
           </div>
           <div
             className="selfie col-sm-12"
             style={isShrinking ? imageStyle : {}}
           >
-            <img src={Rafael} />
+            <a href="https://www.linkedin.com/in/rafael-mota-1630a6247/">
+              <img src={Rafael} />
+            </a>
           </div>
         </div>
         <div

@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* remove underline from links */
+
 .portfolio {
   min-height: 100vh;
   /* background-color: #1a1a1d; */
@@ -73,6 +75,34 @@ canvas {
 .txt_logo_bg img {
   padding: 5px;
 }
+.citadel {
+  width: 100%;
+}
+.gm img {
+  width: 70px;
+}
+.citadel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.html img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+.java img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.adobe img {
+  background-color: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
 
 @media screen and (min-width: 976px) and (min-height: 601px) {
   .web img {
@@ -98,5 +128,27 @@ canvas {
   .citadel img {
     padding: 20px;
     width: 150px;
+  }
+
+  .gm img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .adobe {
+    background-color: none;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  .html img {
+    padding: 20px;
+    width: 150px;
+  }
+  .java img {
+    width: 150px;
+  }
+  .aff {
+    border-right: 1px solid black;
+    border-image: linear-gradient(#e6646400, #787878d0, rgba(0, 0, 0, 0)) 1 100%;
   }
 }
