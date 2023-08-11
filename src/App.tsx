@@ -1,15 +1,18 @@
 import TextAdv from "./components/TextAdv";
 import Menu from "./components/Menu";
 import Web from "./components/Web";
+
 import { useEffect, useState } from "react";
 import "./App.css";
 import wta from "./assets/wta.png";
 import resume from "./assets/resume.jpg";
 import Rafael_Resume from "./assets/Rafael_Resume.pdf";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("landing");
   const [fade, setFade] = useState("fadeOff");
+
   /*
   keeps track of what the current page is
   by saving it to [currentPage] after it
@@ -72,6 +75,12 @@ function App() {
               </a>
             </div>
           )}
+        </div>
+        <div
+          className="row d-flex justify-content-center"
+          style={currentPage == "landing" ? { opacity: "1" } : { opacity: "0" }}
+        >
+          <Footer />
         </div>
       </div>
     </>
