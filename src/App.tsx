@@ -4,10 +4,11 @@ import Web from "./components/Web";
 
 import { useEffect, useState } from "react";
 import "./App.css";
-import wta from "./assets/wta.png";
+
 import resume from "./assets/resume.jpg";
 import Rafael_Resume from "./assets/Rafael_Resume.pdf";
 import Footer from "./components/Footer";
+import Game from "./components/Game";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("landing");
@@ -38,25 +39,7 @@ function App() {
           />
         </div>
         <div className="row page d-flex justify-content-center">
-          {currentPage == "game" && (
-            <div className="game col">
-              <a
-                href="https://whosthatasciimon-rmota29619.b4a.run/#"
-                className="wta"
-                style={fade == "fadeOn" ? { opacity: "1" } : { opacity: "0" }}
-              >
-                <img className="rounded" src={wta} width="100%" />
-              </a>
-              <br />
-              <br />
-              <div
-                className="tacomp rounded row"
-                style={fade == "fadeOn" ? { opacity: "1" } : { opacity: "0" }}
-              >
-                <TextAdv />
-              </div>
-            </div>
-          )}
+          {currentPage == "game" && <Game fade={fade} />}
           {currentPage == "web" && (
             <div
               className="web rounded row"
