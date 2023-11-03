@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_23/static/css/main.5cace4d2.css",
-    "main.js": "/portfolio_23/static/js/main.dfb56f11.js",
+    "main.js": "/portfolio_23/static/js/main.ba4e36a6.js",
     "static/js/787.d26f836c.chunk.js": "/portfolio_23/static/js/787.d26f836c.chunk.js",
     "static/media/Rafael.png": "/portfolio_23/static/media/Rafael.bbae58a91b2a5a991ec3.png",
     "static/media/SMITH.png": "/portfolio_23/static/media/SMITH.7d1b2092361c76631956.png",
@@ -25,11 +25,11 @@
     "static/media/logo_citadel.webp": "/portfolio_23/static/media/logo_citadel.6261f788b107a5032c31.webp",
     "index.html": "/portfolio_23/index.html",
     "main.5cace4d2.css.map": "/portfolio_23/static/css/main.5cace4d2.css.map",
-    "main.dfb56f11.js.map": "/portfolio_23/static/js/main.dfb56f11.js.map",
+    "main.ba4e36a6.js.map": "/portfolio_23/static/js/main.ba4e36a6.js.map",
     "787.d26f836c.chunk.js.map": "/portfolio_23/static/js/787.d26f836c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cace4d2.css",
-    "static/js/main.dfb56f11.js"
+    "static/js/main.ba4e36a6.js"
   ]
 }
