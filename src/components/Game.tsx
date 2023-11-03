@@ -7,7 +7,7 @@ function Game(props: Props) {
   const { fade } = props;
   return (
     <>
-      <div className="game col mt-3">
+      <div className="game col">
         <a
           href="https://whosthatasciimon-rmota29619.b4a.run/#"
           className="wta"
